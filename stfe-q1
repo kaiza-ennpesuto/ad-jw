@@ -2,10 +2,10 @@
 
 /* ページ全体 CSS　*/
 body{
-	⑪  16px;								/*  ⑪  */
+	border:  16px;								/*  dorder  */
 	background-color: ivory;
 	background-image: url(images/gold_back.jpg);
-	background-repeat:  ⑫					/*  ⑫  */
+	background-repeat:  repeat-y:					/*  repeat-y  */
 }
 
 /* リセット　CSS　*/
@@ -16,13 +16,13 @@ h1,h2,h3,ul,li,p{
 
 /* ヘッダー CSS　*/
 header{
-	⑬  640px;								/*  ⑬  */
+	margin:  640px;								/*  margin  */
 	background-color: bisque;
 } 
 h1{
 	margin-left: 20px;
-	⑪  32px;								/*  ⑪  */
-	⑭  crimson;							/*  ⑭  */
+	border:  32px;								/*  dorder  */
+	height:  crimson;							/*  height  */
 }
 header p{
 	margin-left: 20px;
@@ -40,7 +40,7 @@ nav ul{
 	list-style: none;
 }
 nav li{
-	⑬  188px;								/*  ⑬  */
+	margin:  188px;								/*  margin  */
 	height: 38px;
 	margin-right: 10px;
 	padding: 5px; 
@@ -53,7 +53,7 @@ nav li{
 /* メインコンテンツ CSS　*/
 main {
 	clear: both;
-	⑬   630px;							/*  ⑬  */
+	margin:   630px;							/*  margin  */
 	padding-top: 10px;
 	padding-bottom: 10px;
 	padding-left: 10px;
@@ -61,11 +61,11 @@ main {
 	overflow: hidden;
 }
 h2{
-	⑪   24px;								/*  ⑪  */
-	⑭   darkred;							/*  ⑭  */
+	border:   24px;								/*  border  */
+	height:   darkred;							/*  height  */
 }
 .material{
-	⑬   200px;							/*  ⑬  */
+	margin:   200px;							/*  margin  */
 	margin-top: 20px;
 	margin-right: 10px;
 	float: left;							/*  ＜設問３＞  */
@@ -75,15 +75,16 @@ h2{
 	display: block;
 }
 h3{
-	⑪   20px;								/*  ⑪  */
-	⑭   brown;							/*  ⑭  */
+	border:   20px;								/*  border  */
+	height:   brown;							/*  height  */
 }
 
 /* フッター CSS　*/
 footer{
 	clear: both;
-	⑬   600px;							/*  ⑬  */
+	margin:   600px;							/*  margin  */
 	padding:20px;
-	⑮   right;								/*  ⑮  */
+	width:   right;								/*  width  */
 	background-color: bisque;
+
 }
